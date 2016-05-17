@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "PanoramaView.h"
+
+#import "PanoramVC.h"
 
 @interface ViewController ()
 
@@ -16,7 +19,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
+   
+    
+
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    PanoramVC *vc = [[PanoramVC alloc] initWithNibName:@"PanoramVC" bundle:nil];
+    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    
+    [self presentViewController:vc
+                       animated:YES
+                     completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

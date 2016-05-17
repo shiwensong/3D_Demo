@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2200F9A445668750D293051C /* libPods-3D_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E732B143949608E9F65739A2 /* libPods-3D_Demo.a */; };
+		41DBB7ED4AC881E9B792024D /* libPods-3D_DemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 603AEAF54188DA8D7ACE8CA0 /* libPods-3D_DemoUITests.a */; };
+		597F713C2B20D7368FCC3ECB /* libPods-3D_DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4567886308032C619BAA08E9 /* libPods-3D_DemoTests.a */; };
 		BA21BCC51CBD023E009F34A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA21BCC41CBD023E009F34A2 /* main.m */; };
 		BA21BCC81CBD023E009F34A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA21BCC71CBD023E009F34A2 /* AppDelegate.m */; };
 		BA21BCCB1CBD023E009F34A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA21BCCA1CBD023E009F34A2 /* ViewController.m */; };
@@ -15,6 +18,23 @@
 		BA21BCD31CBD023E009F34A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA21BCD11CBD023E009F34A2 /* LaunchScreen.storyboard */; };
 		BA21BCDE1CBD023E009F34A2 /* _D_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA21BCDD1CBD023E009F34A2 /* _D_DemoTests.m */; };
 		BA21BCE91CBD023E009F34A2 /* _D_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA21BCE81CBD023E009F34A2 /* _D_DemoUITests.m */; };
+		BA21BCF71CBD0336009F34A2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA21BCF61CBD0336009F34A2 /* OpenGLES.framework */; };
+		BA8831681CBD082E00B23D8A /* PanoramShow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8831671CBD082E00B23D8A /* PanoramShow.framework */; };
+		BA88316B1CBD085E00B23D8A /* PanoramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88316A1CBD085E00B23D8A /* PanoramVC.m */; };
+		BA88316C1CBD085E00B23D8A /* PanoramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88316A1CBD085E00B23D8A /* PanoramVC.m */; };
+		BA88316D1CBD085E00B23D8A /* PanoramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BA88316A1CBD085E00B23D8A /* PanoramVC.m */; };
+		BA8831751CBD08C500B23D8A /* PanoramMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8831701CBD08C500B23D8A /* PanoramMenuItem.m */; };
+		BA8831761CBD08C500B23D8A /* PanoramMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8831701CBD08C500B23D8A /* PanoramMenuItem.m */; };
+		BA8831771CBD08C500B23D8A /* PanoramMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8831701CBD08C500B23D8A /* PanoramMenuItem.m */; };
+		BA8831781CBD08C500B23D8A /* PanoramMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8831711CBD08C500B23D8A /* PanoramMenuItem.xib */; };
+		BA8831791CBD08C500B23D8A /* PanoramMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8831711CBD08C500B23D8A /* PanoramMenuItem.xib */; };
+		BA88317A1CBD08C500B23D8A /* PanoramMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8831711CBD08C500B23D8A /* PanoramMenuItem.xib */; };
+		BA88317B1CBD08C500B23D8A /* PanoramMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8831731CBD08C500B23D8A /* PanoramMenuView.m */; };
+		BA88317C1CBD08C500B23D8A /* PanoramMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8831731CBD08C500B23D8A /* PanoramMenuView.m */; };
+		BA88317D1CBD08C500B23D8A /* PanoramMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8831731CBD08C500B23D8A /* PanoramMenuView.m */; };
+		BA88317E1CBD08C500B23D8A /* PanoramMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8831741CBD08C500B23D8A /* PanoramMenuView.xib */; };
+		BA88317F1CBD08C500B23D8A /* PanoramMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8831741CBD08C500B23D8A /* PanoramMenuView.xib */; };
+		BA8831801CBD08C500B23D8A /* PanoramMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8831741CBD08C500B23D8A /* PanoramMenuView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05793F7CD46A31F154BC7222 /* Pods-3D_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D_DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D_DemoTests/Pods-3D_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		108B65BD54CF7227644E485B /* Pods-3D_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D_DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D_DemoTests/Pods-3D_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4567886308032C619BAA08E9 /* libPods-3D_DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3D_DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6BD5A71FE639CFCA8662E4 /* Pods-3D_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D_DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D_DemoUITests/Pods-3D_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		603AEAF54188DA8D7ACE8CA0 /* libPods-3D_DemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3D_DemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA79324B47F07BC997E721E /* Pods-3D_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D_Demo/Pods-3D_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B9C3847D7502F2445BB8E3 /* Pods-3D_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-3D_Demo/Pods-3D_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		BA21BCC01CBD023E009F34A2 /* 3D_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3D_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA21BCC41CBD023E009F34A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BA21BCC61CBD023E009F34A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +78,18 @@
 		BA21BCE41CBD023E009F34A2 /* 3D_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3D_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA21BCE81CBD023E009F34A2 /* _D_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_DemoUITests.m; sourceTree = "<group>"; };
 		BA21BCEA1CBD023E009F34A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA21BCF61CBD0336009F34A2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BA8831671CBD082E00B23D8A /* PanoramShow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PanoramShow.framework; sourceTree = "<group>"; };
+		BA8831691CBD085E00B23D8A /* PanoramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanoramVC.h; path = ../../../../GIthubDemo/Panorama/PanoramaDemo/PanoramaDemo/PanoramVC.h; sourceTree = "<group>"; };
+		BA88316A1CBD085E00B23D8A /* PanoramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanoramVC.m; path = ../../../../GIthubDemo/Panorama/PanoramaDemo/PanoramaDemo/PanoramVC.m; sourceTree = "<group>"; };
+		BA88316F1CBD08C500B23D8A /* PanoramMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramMenuItem.h; sourceTree = "<group>"; };
+		BA8831701CBD08C500B23D8A /* PanoramMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramMenuItem.m; sourceTree = "<group>"; };
+		BA8831711CBD08C500B23D8A /* PanoramMenuItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanoramMenuItem.xib; sourceTree = "<group>"; };
+		BA8831721CBD08C500B23D8A /* PanoramMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramMenuView.h; sourceTree = "<group>"; };
+		BA8831731CBD08C500B23D8A /* PanoramMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramMenuView.m; sourceTree = "<group>"; };
+		BA8831741CBD08C500B23D8A /* PanoramMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanoramMenuView.xib; sourceTree = "<group>"; };
+		E6F95B28BF605CCA80A5B591 /* Pods-3D_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3D_DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3D_DemoUITests/Pods-3D_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E732B143949608E9F65739A2 /* libPods-3D_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3D_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA21BCF71CBD0336009F34A2 /* OpenGLES.framework in Frameworks */,
+				BA8831681CBD082E00B23D8A /* PanoramShow.framework in Frameworks */,
+				2200F9A445668750D293051C /* libPods-3D_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597F713C2B20D7368FCC3ECB /* libPods-3D_DemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +115,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DBB7ED4AC881E9B792024D /* libPods-3D_DemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20013E41E2DADDFBEE5007FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFA79324B47F07BC997E721E /* Pods-3D_Demo.debug.xcconfig */,
+				B9B9C3847D7502F2445BB8E3 /* Pods-3D_Demo.release.xcconfig */,
+				05793F7CD46A31F154BC7222 /* Pods-3D_DemoTests.debug.xcconfig */,
+				108B65BD54CF7227644E485B /* Pods-3D_DemoTests.release.xcconfig */,
+				E6F95B28BF605CCA80A5B591 /* Pods-3D_DemoUITests.debug.xcconfig */,
+				4E6BD5A71FE639CFCA8662E4 /* Pods-3D_DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2170EDE15DCE6F00D7374E1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA21BCF61CBD0336009F34A2 /* OpenGLES.framework */,
+				E732B143949608E9F65739A2 /* libPods-3D_Demo.a */,
+				4567886308032C619BAA08E9 /* libPods-3D_DemoTests.a */,
+				603AEAF54188DA8D7ACE8CA0 /* libPods-3D_DemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA21BCB71CBD023D009F34A2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +153,8 @@
 				BA21BCDC1CBD023E009F34A2 /* 3D_DemoTests */,
 				BA21BCE71CBD023E009F34A2 /* 3D_DemoUITests */,
 				BA21BCC11CBD023E009F34A2 /* Products */,
+				20013E41E2DADDFBEE5007FC /* Pods */,
+				2170EDE15DCE6F00D7374E1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +171,15 @@
 		BA21BCC21CBD023E009F34A2 /* 3D_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				BA8831671CBD082E00B23D8A /* PanoramShow.framework */,
 				BA21BCC61CBD023E009F34A2 /* AppDelegate.h */,
 				BA21BCC71CBD023E009F34A2 /* AppDelegate.m */,
 				BA21BCC91CBD023E009F34A2 /* ViewController.h */,
 				BA21BCCA1CBD023E009F34A2 /* ViewController.m */,
 				BA21BCCC1CBD023E009F34A2 /* Main.storyboard */,
+				BA8831691CBD085E00B23D8A /* PanoramVC.h */,
+				BA88316A1CBD085E00B23D8A /* PanoramVC.m */,
+				BA88316E1CBD08C500B23D8A /* MenuView */,
 				BA21BCCF1CBD023E009F34A2 /* Assets.xcassets */,
 				BA21BCD11CBD023E009F34A2 /* LaunchScreen.storyboard */,
 				BA21BCD41CBD023E009F34A2 /* Info.plist */,
@@ -140,6 +214,19 @@
 			path = 3D_DemoUITests;
 			sourceTree = "<group>";
 		};
+		BA88316E1CBD08C500B23D8A /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				BA88316F1CBD08C500B23D8A /* PanoramMenuItem.h */,
+				BA8831701CBD08C500B23D8A /* PanoramMenuItem.m */,
+				BA8831711CBD08C500B23D8A /* PanoramMenuItem.xib */,
+				BA8831721CBD08C500B23D8A /* PanoramMenuView.h */,
+				BA8831731CBD08C500B23D8A /* PanoramMenuView.m */,
+				BA8831741CBD08C500B23D8A /* PanoramMenuView.xib */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA21BCED1CBD023E009F34A2 /* Build configuration list for PBXNativeTarget "3D_Demo" */;
 			buildPhases = (
+				AA45795381B3D36B156A966A /* Check Pods Manifest.lock */,
 				BA21BCBC1CBD023E009F34A2 /* Sources */,
 				BA21BCBD1CBD023E009F34A2 /* Frameworks */,
 				BA21BCBE1CBD023E009F34A2 /* Resources */,
+				92C9086562ADF1F469F39DA1 /* Embed Pods Frameworks */,
+				15E4208DCC0647C09A985EF9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA21BCF01CBD023E009F34A2 /* Build configuration list for PBXNativeTarget "3D_DemoTests" */;
 			buildPhases = (
+				1691AAD211E6FA37563E5DD9 /* Check Pods Manifest.lock */,
 				BA21BCD51CBD023E009F34A2 /* Sources */,
 				BA21BCD61CBD023E009F34A2 /* Frameworks */,
 				BA21BCD71CBD023E009F34A2 /* Resources */,
+				48E47B677BA3343218A4A247 /* Embed Pods Frameworks */,
+				A5802AC07393E487ECA12287 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA21BCF31CBD023E009F34A2 /* Build configuration list for PBXNativeTarget "3D_DemoUITests" */;
 			buildPhases = (
+				65BC85929CAAF31310546A7D /* Check Pods Manifest.lock */,
 				BA21BCE01CBD023E009F34A2 /* Sources */,
 				BA21BCE11CBD023E009F34A2 /* Frameworks */,
 				BA21BCE21CBD023E009F34A2 /* Resources */,
+				391F89D4BB94F7759A4975CA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,7 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA21BCD31CBD023E009F34A2 /* LaunchScreen.storyboard in Resources */,
+				BA88317E1CBD08C500B23D8A /* PanoramMenuView.xib in Resources */,
 				BA21BCD01CBD023E009F34A2 /* Assets.xcassets in Resources */,
+				BA8831781CBD08C500B23D8A /* PanoramMenuItem.xib in Resources */,
 				BA21BCCE1CBD023E009F34A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA88317F1CBD08C500B23D8A /* PanoramMenuView.xib in Resources */,
+				BA8831791CBD08C500B23D8A /* PanoramMenuItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +362,135 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8831801CBD08C500B23D8A /* PanoramMenuView.xib in Resources */,
+				BA88317A1CBD08C500B23D8A /* PanoramMenuItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E4208DCC0647C09A985EF9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3D_Demo/Pods-3D_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1691AAD211E6FA37563E5DD9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		391F89D4BB94F7759A4975CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3D_DemoUITests/Pods-3D_DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E47B677BA3343218A4A247 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3D_DemoTests/Pods-3D_DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65BC85929CAAF31310546A7D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92C9086562ADF1F469F39DA1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3D_Demo/Pods-3D_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5802AC07393E487ECA12287 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3D_DemoTests/Pods-3D_DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA45795381B3D36B156A966A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA21BCBC1CBD023E009F34A2 /* Sources */ = {
@@ -274,6 +498,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA21BCCB1CBD023E009F34A2 /* ViewController.m in Sources */,
+				BA8831751CBD08C500B23D8A /* PanoramMenuItem.m in Sources */,
+				BA88317B1CBD08C500B23D8A /* PanoramMenuView.m in Sources */,
+				BA88316B1CBD085E00B23D8A /* PanoramVC.m in Sources */,
 				BA21BCC81CBD023E009F34A2 /* AppDelegate.m in Sources */,
 				BA21BCC51CBD023E009F34A2 /* main.m in Sources */,
 			);
@@ -284,6 +511,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA21BCDE1CBD023E009F34A2 /* _D_DemoTests.m in Sources */,
+				BA88316C1CBD085E00B23D8A /* PanoramVC.m in Sources */,
+				BA88317C1CBD08C500B23D8A /* PanoramMenuView.m in Sources */,
+				BA8831761CBD08C500B23D8A /* PanoramMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +522,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA21BCE91CBD023E009F34A2 /* _D_DemoUITests.m in Sources */,
+				BA88316D1CBD085E00B23D8A /* PanoramVC.m in Sources */,
+				BA88317D1CBD08C500B23D8A /* PanoramMenuView.m in Sources */,
+				BA8831771CBD08C500B23D8A /* PanoramMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +645,13 @@
 		};
 		BA21BCEE1CBD023E009F34A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFA79324B47F07BC997E721E /* Pods-3D_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3D_Demo",
+				);
 				INFOPLIST_FILE = 3D_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.-D-Demo";
@@ -423,8 +661,13 @@
 		};
 		BA21BCEF1CBD023E009F34A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B9C3847D7502F2445BB8E3 /* Pods-3D_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/3D_Demo",
+				);
 				INFOPLIST_FILE = 3D_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shiwensong.-D-Demo";
@@ -434,6 +677,7 @@
 		};
 		BA21BCF11CBD023E009F34A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05793F7CD46A31F154BC7222 /* Pods-3D_DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 3D_DemoTests/Info.plist;
@@ -446,6 +690,7 @@
 		};
 		BA21BCF21CBD023E009F34A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108B65BD54CF7227644E485B /* Pods-3D_DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 3D_DemoTests/Info.plist;
@@ -458,6 +703,7 @@
 		};
 		BA21BCF41CBD023E009F34A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F95B28BF605CCA80A5B591 /* Pods-3D_DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = 3D_DemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +716,7 @@
 		};
 		BA21BCF51CBD023E009F34A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6BD5A71FE639CFCA8662E4 /* Pods-3D_DemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = 3D_DemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -499,6 +746,7 @@
 				BA21BCEF1CBD023E009F34A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA21BCF01CBD023E009F34A2 /* Build configuration list for PBXNativeTarget "3D_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +755,7 @@
 				BA21BCF21CBD023E009F34A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA21BCF31CBD023E009F34A2 /* Build configuration list for PBXNativeTarget "3D_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +764,7 @@
 				BA21BCF51CBD023E009F34A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
